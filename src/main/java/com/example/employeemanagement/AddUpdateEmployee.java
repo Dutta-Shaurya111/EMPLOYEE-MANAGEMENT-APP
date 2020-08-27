@@ -25,8 +25,8 @@ import java.util.Date;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class AddUpdateEmployee extends AppCompatActivity implements DatePickerFragment.DateDialogListener{
-    private static final String EXTRA_EMP_ID = "com.androidtutorialpoint.empId";
-    private static final String EXTRA_ADD_UPDATE = "com.androidtutorialpoint.add_update";
+    private static final String EXTRA_EMP_ID = "com.shaurya_dutta.empId";
+    private static final String EXTRA_ADD_UPDATE = "com.shaurya_dutta.add_update";
     private static final String DIALOG_DATE = "DialogDate";
     private ImageView calendarImage;
     private CircleImageView circleImage_profile;
