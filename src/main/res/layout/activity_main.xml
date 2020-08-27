@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textAllCaps="true"
+        android:textSize="19sp"
+        android:text="@string/app_name"/>
+
+    <Button
+        android:layout_marginTop="20sp"
+        android:id="@+id/button_add_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_employee"/>
+
+    <Button
+        android:layout_marginTop="10sp"
+        android:id="@+id/button_edit_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_employee"/>
+
+    <Button
+        android:layout_marginTop="10sp"
+        android:id="@+id/button_delete_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remove_employee"/>
+
+    <Button
+        android:layout_marginTop="10sp"
+        android:id="@+id/button_view_employees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_all_employees"/>
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewAllEmployees">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorToolbar">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:id="@+id/app_name"
+                android:text="@string/app_name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:id="@+id/sort_by_tv"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="16sp"
+                android:text="@string/sort_by"/>
+
+            <Spinner
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/sort_by"
+                android:contentDescription="@string/sort_by"/>
+            <Button
+                android:layout_width="60sp"
+                android:layout_height="33sp"
+                android:id="@+id/sort_btn"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Sort"/>
+        </LinearLayout>
+    </Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:id="@+id/search_img"
+            android:src="@drawable/ic_search_black_24dp"/>
+        <EditText
+            android:layout_marginTop="5sp"
+            android:layout_width="match_parent"
+            android:hint="Search"
+            android:textSize="20sp"
+            android:layout_height="40sp"
+            android:id="@+id/search_ed"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+
+</LinearLayout>
