@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity{
     private Button deleteEmployeeButton;
     private Button viewAllEmployeeButton;
     private EmployeeOperations employeeOps;
-    private static final String EXTRA_EMP_ID = "com.androidtutorialpoint.empId";
-    private static final String EXTRA_ADD_UPDATE = "com.androidtutorialpoint.add_update";
+    private static final String EXTRA_EMP_ID = "com.shaurya_dutta.empId";
+    private static final String EXTRA_ADD_UPDATE = "com.shaurya_dutta.add_update";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
